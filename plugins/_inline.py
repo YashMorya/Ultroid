@@ -39,10 +39,11 @@ async def e(o):
     if len(o.text) == 0:
         b = o.builder
         uptime = grt(time.time() - start_time)
-        header = udB.get("ALIVE_TEXT") if udB.get("ALIVE_TEXT") else "Hey,  I am alive."
+        header = udB.get("ALIVE_TEXT") if udB.get("ALIVE_TEXT") else "Hey,  I My Awesome Master I am Alive!!."
         ALIVEMSG = get_string("alive_1").format(
+            ULTROID_PIC,
             header,
-            OWNER_NAME,
+            "The One And Only Yash Morya",
             ultroid_version,
             UltVer,
             uptime,
